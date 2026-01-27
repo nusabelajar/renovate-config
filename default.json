@@ -3,6 +3,7 @@
   "extends": [
     "github>kakushindev/renovate-config"
   ],
+  "npmrc": "@nusabelajar:registry=https://npm.pkg.github.com",
   "hostRules": [
     {
       "matchHost": "npm.pkg.github.com",
