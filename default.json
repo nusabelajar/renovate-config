@@ -3,11 +3,20 @@
   "extends": [
     "github>kakushindev/renovate-config"
   ],
+  "packageRules": [
+    {
+      "matchDatasources": [
+        "npm"
+      ],
+      "matchPackageNames":["@nusabelajar"],
+      "registryUrls": ["https://npm.pkg.github.com"]
+    }
+  ],
   "hostRules": [
     {
       "matchHost": "https://npm.pkg.github.com",
       "hostType": "npm",
       "token": "{{ secrets.MEND_GITHUB_PACKAGES_TOKEN }}"
     }
-  ]
+  ],
 }
