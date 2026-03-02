@@ -19,4 +19,5 @@
       "token": "{{ secrets.MEND_GITHUB_PACKAGES_TOKEN }}"
     }
   ],
+  "npmrc": "@nusabelajar:registry=https://npm.pkg.github.com"
 }
