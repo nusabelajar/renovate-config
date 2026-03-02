@@ -6,6 +6,7 @@
   "hostRules": [
     {
       "matchHost": "npm.pkg.github.com",
+      "hostType": "npm",
       "token": "{{ secrets.MEND_GITHUB_PACKAGES_TOKEN }}"
     }
   ]
